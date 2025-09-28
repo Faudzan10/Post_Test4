@@ -50,11 +50,15 @@ Abstract
 
 
 overriding
+
 <img width="540" height="115" alt="image" src="https://github.com/user-attachments/assets/18e1a6f1-b191-49bd-95cb-05fa4eddf133" />
+
 
 <img width="614" height="114" alt="image" src="https://github.com/user-attachments/assets/d0766a3b-2c4f-484d-bb13-bd3fb6c86914" />
 
+
 overloading
+
 <img width="1164" height="302" alt="image" src="https://github.com/user-attachments/assets/73cfe44a-865b-44ad-b5f4-8e9df0e67e18" />
 
 
@@ -65,9 +69,12 @@ overloading
 
 <img width="977" height="712" alt="image" src="https://github.com/user-attachments/assets/ca494575-1c0e-4c85-8d9b-93a1c64cf1eb" />
 
+
 <img width="946" height="749" alt="image" src="https://github.com/user-attachments/assets/ff33de68-f7ca-425f-82c0-750663a0b86a" />
 
+
 <img width="1002" height="725" alt="image" src="https://github.com/user-attachments/assets/063dffe9-60f5-4283-b946-52af8d200162" />
+
 
 - Penjelasan:
 
