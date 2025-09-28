@@ -252,7 +252,8 @@ Program otomatis menghitung ringkasan:
 
 **3.Ubah Reservasi**
 
-<img width="1617" height="699" alt="image" src="https://github.com/user-attachments/assets/899628cc-32f3-4b24-a697-219ed7dd9f58" />
+<img width="497" height="380" alt="image" src="https://github.com/user-attachments/assets/522c61b0-0d8e-44b4-8faa-fdcfc5557e8f" />
+
 
 Penjelasan Output:
 
@@ -260,20 +261,7 @@ Penjelasan Output:
 User memilih 3 (Ubah Reservasi).
 
 - Daftar Reservasi
-Program menampilkan semua data reservasi yang ada (sama seperti menu lihat reservasi), lengkap dengan detail reguler dan VIP, serta statistik total.
-
-- Pilih Data yang Akan Diubah
-
-  - User memilih reservasi nomor 1 (atas nama janod).
-
-  - Program menampilkan data lama untuk memastikan.
-
-- Pilih Bagian yang Ingin Diubah
-Opsi yang tersedia: Nama, Tanggal, Jam, atau Durasi.
-
-  - User memilih 1 (Nama Pemesan).
-
-  - Nama diubah dari janod → ZANOD.
+Ubah Nama baru, Tanggal baru, Jam baru, Durasi baru, Pilih jenis vip atau reguler.
 
 - Konfirmasi Perubahan
 Program menampilkan pesan “Reservasi berhasil diubah!” dan memperlihatkan data terbaru dengan nama pemesan yang sudah diperbarui.
