@@ -42,6 +42,22 @@ Program menampilkan pesan perpisahan → program berhenti.
 
 Jadi alurnya sederhana: program jalan → tampilkan menu → user pilih → program proses → kembali ke menu, sampai user memilih keluar.
 
+## Penerapan Abstraction & Polymorphism (Post Test 4)
+
+Abstract
+
+<img width="1188" height="419" alt="image" src="https://github.com/user-attachments/assets/c4143319-ec4b-4846-9b51-a76ffa0fefc8" />
+
+
+overriding
+<img width="540" height="115" alt="image" src="https://github.com/user-attachments/assets/18e1a6f1-b191-49bd-95cb-05fa4eddf133" />
+
+<img width="614" height="114" alt="image" src="https://github.com/user-attachments/assets/d0766a3b-2c4f-484d-bb13-bd3fb6c86914" />
+
+overloading
+<img width="1164" height="302" alt="image" src="https://github.com/user-attachments/assets/73cfe44a-865b-44ad-b5f4-8e9df0e67e18" />
+
+
 ===========================================================
 **PENJELASAN KODE PROGRAM**
 
