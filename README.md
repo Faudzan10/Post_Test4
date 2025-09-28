@@ -42,48 +42,6 @@ Program menampilkan pesan perpisahan → program berhenti.
 
 Jadi alurnya sederhana: program jalan → tampilkan menu → user pilih → program proses → kembali ke menu, sampai user memilih keluar.
 
-## Penerapan Abstraction & Polymorphism (Post Test 4)
-
-**Abstract**
-
-Abstraction adalah proses menyembunyikan detail implementasi dan hanya menampilkan fungsionalitas utama kepada user.
-Dalam program ini, abstraksi diterapkan pada class Reservasi:
-
-<img width="1188" height="419" alt="image" src="https://github.com/user-attachments/assets/c4143319-ec4b-4846-9b51-a76ffa0fefc8" />
-
-- Penjelasan:
-
-  - Class Reservasi didefinisikan sebagai abstract.
-  - Method hitungTotalBiaya() bersifat abstrak → tidak memiliki implementasi langsung.
-  - Class turunan wajib mengimplementasikan method ini sesuai kebutuhan masing-masing.
-
-**overriding**
-
-Overriding adalah kemampuan untuk mendefinisikan ulang method dari superclass di subclass dengan implementasi yang berbeda.
-
-<img width="540" height="115" alt="image" src="https://github.com/user-attachments/assets/18e1a6f1-b191-49bd-95cb-05fa4eddf133" />
-
-
-<img width="614" height="114" alt="image" src="https://github.com/user-attachments/assets/d0766a3b-2c4f-484d-bb13-bd3fb6c86914" />
-
-- Penjelasan:
-
-  - Kedua method memiliki nama dan parameter yang sama (hitungTotalBiaya()).
-  - Namun, implementasi berbeda → pada salah satu class ditambahkan biayaTambahan.
-
-**overloading**
-
-Overloading adalah kemampuan membuat beberapa method dengan nama yang sama tetapi parameter berbeda.
-
-<img width="1164" height="302" alt="image" src="https://github.com/user-attachments/assets/73cfe44a-865b-44ad-b5f4-8e9df0e67e18" />
-
-- Penjelasan:
-
-  - Kedua method sama-sama bernama tambahReservasi.
-  - Perbedaan ada pada parameter:
-  - tambahReservasi(Reservasi reservasi)
-  - tambahReservasi(Reservasi reservasi, double diskon)
-
 ===========================================================
 **PENJELASAN KODE PROGRAM**
 
@@ -163,6 +121,48 @@ Overloading adalah kemampuan membuat beberapa method dengan nama yang sama tetap
   - Menu loop: while(true) untuk menu yang terus berulang
   - Switch-case: Control flow untuk pilihan menu
 
+## Penerapan Abstraction & Polymorphism (Post Test 4)
+
+**Abstract**
+
+Abstraction adalah proses menyembunyikan detail implementasi dan hanya menampilkan fungsionalitas utama kepada user.
+Dalam program ini, abstraksi diterapkan pada class Reservasi:
+
+<img width="1188" height="419" alt="image" src="https://github.com/user-attachments/assets/c4143319-ec4b-4846-9b51-a76ffa0fefc8" />
+
+- Penjelasan:
+
+  - Class Reservasi didefinisikan sebagai abstract.
+  - Method hitungTotalBiaya() bersifat abstrak → tidak memiliki implementasi langsung.
+  - Class turunan wajib mengimplementasikan method ini sesuai kebutuhan masing-masing.
+
+**overriding**
+
+Overriding adalah kemampuan untuk mendefinisikan ulang method dari superclass di subclass dengan implementasi yang berbeda.
+
+<img width="540" height="115" alt="image" src="https://github.com/user-attachments/assets/18e1a6f1-b191-49bd-95cb-05fa4eddf133" />
+
+
+<img width="614" height="114" alt="image" src="https://github.com/user-attachments/assets/d0766a3b-2c4f-484d-bb13-bd3fb6c86914" />
+
+- Penjelasan:
+
+  - Kedua method memiliki nama dan parameter yang sama (hitungTotalBiaya()).
+  - Namun, implementasi berbeda → pada salah satu class ditambahkan biayaTambahan.
+
+**overloading**
+
+Overloading adalah kemampuan membuat beberapa method dengan nama yang sama tetapi parameter berbeda.
+
+<img width="1164" height="302" alt="image" src="https://github.com/user-attachments/assets/73cfe44a-865b-44ad-b5f4-8e9df0e67e18" />
+
+- Penjelasan:
+
+  - Kedua method sama-sama bernama tambahReservasi.
+  - Perbedaan ada pada parameter:
+  - tambahReservasi(Reservasi reservasi)
+  - tambahReservasi(Reservasi reservasi, double diskon)
+    
 ===========================================================
 
 **ALUR PROGRAM**
